@@ -10,7 +10,7 @@ const DOC_KEY = process.env.USER_KEY;
 export const fetchStatus = () => dispatch => {
     dispatch({ type: FETCH_INFO_START })
 
-    axios.get(`https://api.betterdoctor.com/2016-03-01/info?user_key=7770ede2b774e0822aec15295288a58a`)
+    axios.get(`https://api.betterdoctor.com/2016-03-01/info?user_key=${DOC_KEY}`)
         .then(res => { dispatch({ type: FETCH_INFO_SUCCESS, payload: res.data })})
         .catch(err => { dispatch({ type: FETCH_INFO_FAILURE, payload: err.response })});
 }

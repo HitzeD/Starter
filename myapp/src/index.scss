@@ -1,13 +1,19 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+// Var & Mixins
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
+@import './sass/general/variables', './sass/general/mixin';
+
+// End of Var & Mixins
+
+// -----------------------------------------------------------------------
+
+// Reset & Global styles
+
+@import './sass/general/reset', './sass/general/global';
+
+// End of Reset and Global
+
+// -----------------------------------------------------------------------
+
+// Components
+
+@import './sass/views/App.scss';

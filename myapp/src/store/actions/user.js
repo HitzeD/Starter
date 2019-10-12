@@ -4,7 +4,6 @@ export const FETCH_INFO_START = 'FETCH_INFO_START';
 export const FETCH_INFO_SUCCESS = 'FETCH_INFO_SUCCESS';
 export const FETCH_INFO_FAILURE = 'FETCH_INFO_FAILURE';
 
-const DOC_BASE = process.env.DOC_BASE;
 const DOC_KEY = process.env.USER_KEY;
 
 export const fetchStatus = () => dispatch => {

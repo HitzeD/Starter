@@ -1,2 +1,10 @@
 # Starter
-starter app with logger/react router/redux/react-redux/dotenv/
+starter app with 
+  *logger
+  *react router
+  *redux
+  *react-redux
+  *dotenv
+  *thunk
+  *axios
+  
